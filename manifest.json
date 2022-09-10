@@ -1,0 +1,13 @@
+{
+    "name": "Adblocker",
+    "version": "1.0",
+    "description": "Adblocker",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "icon/byeAD.png"
+    },
+    "manifest_version": 2
+}
